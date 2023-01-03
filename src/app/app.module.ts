@@ -11,6 +11,9 @@ import { DatePipe, HashLocationStrategy, LocationStrategy } from '@angular/commo
 import { CookieService } from 'ngx-cookie-service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { FooterComponent } from './Components/main/footer/footer.component';
+import { HeaderComponent } from './Components/main/header/header.component';
+import { MenuSidebarComponent } from './Components/main/menu-sidebar/menu-sidebar.component';
 
 
 
@@ -21,7 +24,10 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     LoginComponent,
     RegisterComponent,
     MainComponent,
-    ChangePassComponent
+    ChangePassComponent,
+    FooterComponent,
+    HeaderComponent,
+    MenuSidebarComponent
   ],
   imports: [
     BrowserModule,
