@@ -15,6 +15,7 @@ export class common {
       public CheckLoginPortal() {
         this.LoginResult = new ResponseLogin();
         this.LoginResult = this.getPortalInfo();
+        debugger;
         if (this.LoginResult == null) {
           this.router.navigate(['/dang-nhap']);
         }

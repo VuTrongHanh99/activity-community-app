@@ -61,7 +61,9 @@ export class BaseComponent implements OnInit {
   submitted = false;
   closeResult!: string;
   dataPopup: any = {};
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    debugger;
+  }
   public getDismissReason(reason: any): string {
     if (reason === ModalDismissReasons.ESC) {
       return 'by pressing ESC';
