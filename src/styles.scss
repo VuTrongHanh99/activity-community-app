@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.cus-body {
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 20px;
+  }
+  @import "ngx-tabset/ngx-tabset";
+  @import "app/app.component";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
