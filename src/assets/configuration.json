@@ -1,4 +1,4 @@
 {
-    "UtilsUrl": "http://118.70.120.226:800/UnisystemAPITeacher/",
-    "TeacherUrl": "https://localhost:44365/"
+    "production": false,
+    "UniSystemAPI": "https://localhost:44314/"
 }

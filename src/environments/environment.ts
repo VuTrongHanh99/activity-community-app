@@ -4,8 +4,7 @@
 
 export const environment = {
   production: false,
-  UtilsUrl: 'http://192.168.1.156:5005/',
-  TeacherUrl: 'https://localhost:44365/'
+  APIURL: 'https://localhost:44346/',
 };
 
 /*
