@@ -3,17 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './Components/login/login.component';
-import { RegisterComponent } from './Components/register/register.component';
-import { MainComponent } from './Components/main/main.component';
-import { ChangePassComponent } from './Components/pages/change-pass/change-pass.component';
 import { DatePipe, HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { CookieService } from 'ngx-cookie-service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxSpinnerModule } from 'ngx-spinner';
-import { FooterComponent } from './Components/main/footer/footer.component';
-import { HeaderComponent } from './Components/main/header/header.component';
-import { MenuSidebarComponent } from './Components/main/menu-sidebar/menu-sidebar.component';
+import { BaseComponent } from './Components/base/base.component';
 
 
 
@@ -21,13 +15,7 @@ import { MenuSidebarComponent } from './Components/main/menu-sidebar/menu-sideba
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    RegisterComponent,
-    MainComponent,
-    ChangePassComponent,
-    FooterComponent,
-    HeaderComponent,
-    MenuSidebarComponent
+    BaseComponent,
   ],
   imports: [
     BrowserModule,
