@@ -31,6 +31,9 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './pages/main/footer/footer.component';
+import { HeaderComponent } from './pages/main/header/header.component';
+import { MenuSidebarComponent } from './pages/main/menu-sidebar/menu-sidebar.component';
 
 
 
@@ -52,6 +55,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PortalMenuSidebarComponent,
     PortalUserDropdownComponent,
     ChatBotComponent,
+    FooterComponent,
+    HeaderComponent,
+    MenuSidebarComponent,
   ],
   imports: [
     NgxPaginationModule,
