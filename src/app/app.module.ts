@@ -34,6 +34,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './pages/main/footer/footer.component';
 import { HeaderComponent } from './pages/main/header/header.component';
 import { MenuSidebarComponent } from './pages/main/menu-sidebar/menu-sidebar.component';
+import { UserDropdownMenuComponent } from './pages/main/header/user-dropdown-menu/user-dropdown-menu.component';
+import { NotificationsDropdownMenuComponent } from './pages/main/header/notifications-dropdown-menu/notifications-dropdown-menu.component';
+import { MessagesDropdownMenuComponent } from './pages/main/header/messages-dropdown-menu/messages-dropdown-menu.component';
 
 
 
@@ -58,6 +61,9 @@ import { MenuSidebarComponent } from './pages/main/menu-sidebar/menu-sidebar.com
     FooterComponent,
     HeaderComponent,
     MenuSidebarComponent,
+    UserDropdownMenuComponent,
+    NotificationsDropdownMenuComponent,
+    MessagesDropdownMenuComponent,
   ],
   imports: [
     NgxPaginationModule,
