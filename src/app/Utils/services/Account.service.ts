@@ -15,6 +15,7 @@ export class Account {
       .post<any>(this.appConfig.UniSystemAPI + 'Account/Login', req, {})
       .pipe(
         map((z) => {
+          debugger;
           return z;
         })
       );

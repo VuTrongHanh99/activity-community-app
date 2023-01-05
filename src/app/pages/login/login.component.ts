@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit, OnDestroy {
       UserName: new FormControl(null, Validators.required),
       Password: new FormControl(null, Validators.required),
     });
-    // this.loginForm.controls.UserName.setValue('aaaaaaa')
+    //this.loginForm.controls['UserName'].setValue('aaaaaaa')
   }
 
   Ridrect() {
@@ -56,6 +56,7 @@ export class LoginComponent implements OnInit, OnDestroy {
       this.spinner.show()
       this.Acc.Login(req).subscribe((z) => {
         this.spinner.hide()
+        debugger;
         if (z.Status == 1) {
           localStorage.setItem('UserInfo', JSON.stringify(z));
           this.appService.login();
